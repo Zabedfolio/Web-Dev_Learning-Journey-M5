@@ -1,10 +1,3 @@
-function outerfunction(){
-//     function innerfunction(){
-//         console.log('This is the inner function')
-//     }
-//     return innerfunction;
-// }
+document.getElementById('#btn').addEventListener('click', function(event){
 
-// const output = outerfunction();
-// // output();
-// // console.log(output)
+// })

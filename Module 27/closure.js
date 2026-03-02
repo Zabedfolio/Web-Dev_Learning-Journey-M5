@@ -1,13 +1,13 @@
-// function outerfunction(){
-//     function innerfunction(){
-//         console.log('This is the inner function')
-//     }
-//     return innerfunction;
-// }
+function outerfunction(){
+    function innerfunction(){
+        console.log('This is the inner function')
+    }
+    return innerfunction;
+}
 
-// const output = outerfunction();
-// // output();
-// // console.log(output)
+const output = outerfunction();
+output();
+console.log(output)
 
 function counter(owner){
     let count = 0;
