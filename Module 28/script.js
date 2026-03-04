@@ -20,6 +20,13 @@
 // const perseJSON = JSON.parse(personJSON);
 // console.log(perseJSON)
 
-fetch('https://jsonplaceholder.typicode.com/todos/1')
+
+
+const loadData = () => {
+      fetch('https://jsonplaceholder.typicode.com/todos/1')
+      // promise to response
       .then(response => response.json())
+      // promise to json data
       .then(json => console.log(json))
+}
+
